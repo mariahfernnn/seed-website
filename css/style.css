@@ -235,15 +235,21 @@ body {
     left: 377px;
     top: 1106px;
     background: #F9F9F9;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
 }
 
-#jar {
+/* #jar {
     position: absolute;
-    left: 25%;
-    right: 24.69%;
-    top: 21.88%;
-    bottom: 9.38%;
-}
+    width: 229px;
+    height: 248px;
+    left: 429px;
+    top: 1137px;
+} */
 
 /* #prep-preserve {
     position: absolute;
@@ -257,18 +263,17 @@ body {
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-    color: #000000;
 } */
 
 #globe {
     position: absolute;
-    left: 14.06%;
-    right: 14.06%;
-    top: 1.56%;
-    bottom: 26.56%;
+    width: 225px;
+    height: 225px;
+    left: 781px;
+    top: 1141px;    
 }
 
-/* #inventory-db {
+#inventory-db {
     position: absolute;
     width: 269px;
     height: 177px;
@@ -280,8 +285,7 @@ body {
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-    color: #000000;
-} */
+}
 
 #b4 {
     position: absolute;
@@ -290,6 +294,12 @@ body {
     left: 1076px;
     top: 1101px;
     background: #F9F9F9;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
 }
 
 /*footer*/
