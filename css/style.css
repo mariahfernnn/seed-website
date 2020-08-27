@@ -130,6 +130,61 @@ body {
 
 /*end of navigation bar*/
 
+/*member page*/
+
+.banner-member {
+    position: absolute;
+    width: 1440px;
+    height: 766px;
+    left: 0px;
+    top: 101px;
+}
+
+#question {
+    position: absolute;
+    width: 438px;
+    height: 42px;
+    left: 822px;
+    top: 268px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#answer {
+    position: absolute;
+    width: 430px;
+    height: 85px;
+    left: 839px;
+    top: 370px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.sign-up {
+    position: absolute;
+    width: 163px;
+    height: 36px;
+    left: 850px;
+    top: 729px;
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    background: #219317;
+    color: #FFFEFE;
+}
+
 /*footer*/
 footer {
     float: left;
