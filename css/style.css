@@ -132,6 +132,11 @@ body {
 
 /*member page*/
 
+.member {
+    display: flex;
+    flex-direction: column;
+}
+
 .banner-member {
     position: absolute;
     width: 1440px;
@@ -185,7 +190,110 @@ body {
     color: #FFFEFE;
 }
 
+/*member page - our benefits*/
+
+#benefits-title {
+    position: absolute;
+    width: 309px;
+    height: 64px;
+    left: 560px;
+    top: 972px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    color: #000000;
+}
+
+#first-benefit {
+    position: absolute;
+    width: 229px;
+    height: 232px;
+    left: 102px;
+    top: 1134px;
+}
+
+#learning {
+    position: absolute;
+    width: 244px;
+    height: 177px;
+    left: 94px;
+    top: 1411px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
+
+#b2 {
+    position: absolute;
+    width: 334px;
+    height: 573px;
+    left: 377px;
+    top: 1106px;
+    background: #F9F9F9;
+}
+
+#second-benefit {
+    position: absolute;
+    left: 25%;
+    right: 24.69%;
+    top: 21.88%;
+    bottom: 9.38%;
+}
+
+/* #prep-preserve {
+    position: absolute;
+    width: 244px;
+    height: 220px;
+    left: 422px;
+    top: 1406px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+} */
+
+#third-benefit {
+    position: absolute;
+    left: 14.06%;
+    right: 14.06%;
+    top: 1.56%;
+    bottom: 26.56%;
+}
+
+/* #inventory-db {
+    position: absolute;
+    width: 269px;
+    height: 177px;
+    left: 759px;
+    top: 1406px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+} */
+
+#b4 {
+    position: absolute;
+    width: 334px;
+    height: 573px;
+    left: 1076px;
+    top: 1101px;
+    background: #F9F9F9;
+}
+
 /*footer*/
+
 footer {
     float: left;
     display: flex;
