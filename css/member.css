@@ -6,11 +6,11 @@
 }
 
 .banner-member {
-  position: absolute;
-  width: 1440px;
-  height: 766px;
+  /* position: absolute; */
+  width: 100%;
+  /* height: 766px;
   left: 0px;
-  top: 101px;
+  top: 101px; */
 }
 
 #question {
