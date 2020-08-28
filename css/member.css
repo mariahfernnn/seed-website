@@ -7,10 +7,15 @@
 
 #banner-member {
   /* position: absolute; */
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
   /* left: 0px;
   top: 101px; */
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 #question {
@@ -60,8 +65,13 @@
 
 /*member page - our benefits*/
 
+#member-benefits {
+  display: flex;
+  flex-direction: column;
+}
+
 #benefits-title {
-  position: absolute;
+  /* position: absolute; */
   width: 309px;
   height: 64px;
   left: 560px;
@@ -74,8 +84,13 @@
   color: #000000;
 }
 
+#benefits-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #farm {
-  position: absolute;
+  /* position: absolute; */
   width: 229px;
   height: 232px;
   left: 102px;
@@ -83,7 +98,7 @@
 }
 
 #learning {
-  position: absolute;
+  /* position: absolute; */
   width: 244px;
   height: 177px;
   left: 94px;
@@ -97,7 +112,7 @@
 }
 
 #b2 {
-  position: absolute;
+  /* position: absolute; */
   width: 334px;
   height: 573px;
   left: 377px;
@@ -112,7 +127,7 @@
 }
 
 #globe {
-  position: absolute;
+  /* position: absolute; */
   width: 225px;
   height: 225px;
   left: 781px;
@@ -120,7 +135,7 @@
 }
 
 #inventory-db {
-  position: absolute;
+  /* position: absolute; */
   width: 269px;
   height: 177px;
   left: 759px;
@@ -134,7 +149,7 @@
 }
 
 #b4 {
-  position: absolute;
+  /* position: absolute; */
   width: 334px;
   height: 573px;
   left: 1076px;
