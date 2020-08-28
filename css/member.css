@@ -61,6 +61,8 @@
   text-align: center;
   background: #219317;
   color: #FFFEFE;
+  border: none;
+  border-radius: 3px;
 }
 
 /*member page - our benefits*/
