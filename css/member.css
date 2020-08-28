@@ -5,11 +5,11 @@
   flex-direction: column;
 }
 
-.banner-member {
+#banner-member {
   /* position: absolute; */
   width: 100%;
-  /* height: 766px;
-  left: 0px;
+  height: auto;
+  /* left: 0px;
   top: 101px; */
 }
 
