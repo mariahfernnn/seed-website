@@ -1,12 +1,13 @@
 .ser-section1 h1 {
-    font-size: 64px;
+    font-size: 50px;
     margin-top: 5%;
     margin-left: 10%;
 }
 
 #grow {
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 10%;
+    padding-right: 50%;
 }
 
 .start-kit {
@@ -54,7 +55,7 @@
     color: white;
     text-align: left;
     padding: 10% 15% 10% 15%;
-    background-image: url(../img/Untitled-1.png);
+    background-image: url(../img/foodprep.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -111,11 +112,12 @@
 
 @media screen and (max-width: 820px) {
     .ser-section1 h1 {
-        font-size: 45px;
+        font-size: 30px;
     }
 
     #grow {
-        font-size: 20px;
+        font-size: 17px;
+        padding-right: 8%
     }
 
     .start-kit span p {
@@ -123,7 +125,7 @@
     }
     
     .starter-kit-more{
-        height: 400px;
+    height: 450px;
     margin-top: 300px;
     padding-top: 50px;
         
