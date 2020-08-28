@@ -60,6 +60,37 @@
 
 /* About Page */
 
+#aboutTOP
+{
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#aboutTOP h1
+{
+    margin: 10px auto;
+    font-size: 26px;
+}
+
+#aboutTOP p
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#aboutGRID
+{
+    display: block;
+}
+
+.content-vision
+{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Tablet Sizes */
 
 /* Contact Tablet */
