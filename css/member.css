@@ -72,10 +72,12 @@
 
 #benefits-title {
   /* position: absolute; */
-  width: 309px;
+  /* width: 309px;
   height: 64px;
   left: 560px;
-  top: 972px;
+  top: 972px; */
+  text-align: center;
+  padding: 100px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -87,6 +89,7 @@
 #benefits-list {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 150px;
 }
 
 #farm {
