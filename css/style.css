@@ -439,6 +439,7 @@ footer {
   }
   #email {
     margin-bottom: 70px;
+    width: 200px; /* default was 360px - broke mobile screen */
   }
 
   #backToTop{
