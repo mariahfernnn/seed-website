@@ -7,7 +7,7 @@
 #grow {
     font-size: 20px;
     margin-left: 10%;
-    padding-right: 40%;
+    padding-right: 50%;
 }
 
 .start-kit {
@@ -55,7 +55,7 @@
     color: white;
     text-align: left;
     padding: 10% 15% 10% 15%;
-    background-image: url(../img/Untitled-1.png);
+    background-image: url(../img/foodprep.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
