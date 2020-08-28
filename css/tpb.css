@@ -5,7 +5,7 @@
     box-sizing: border-box;
     width: 100%;
     display: block;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 /* Contact Page */
@@ -83,21 +83,155 @@
 #aboutGRID
 {
     display: block;
+    margin: 20px auto;
 }
 
-.content-vision
+.content-vision, .content-mission
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.gridIMG
+{
+    display: flex;
+    justify-content: center;
+}
+
+.gridTEXT
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+
+.gridTEXT h3
+{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gridTEXT p
+{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#aboutPARTNER
+{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 200px;
+}
+
+.partnerPOSI
+{
+    display: flex;
+    flex-direction: column;
+    min-height: inherit;
+}
+
+#aboutPARTNER h3 
+{
+    font-size: 28px;
+    margin-bottom: 10px;
+    justify-self: flex-start;
+}
+
+#aboutPARTNER p
+{
+    font-size: 16px;
+    margin: auto;
+}
+
+.content-vision img, .content-mission img
+{
+    width: 100%;
+}
+
+#aboutTEAM
+{
+    margin: 20px auto;
+    background-color: #f6f6f6;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+#aboutTEAM h3
+{
+    text-align: center;
+    font-size: 28px;
+}
+
+.team-cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.card img
+{
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card p
+{
+    width: fit-content;
+    text-align: center;
 }
 
 /* Tablet Sizes */
+@media(min-width: 600px)
+{
+    /* Contact Tablet */
 
-/* Contact Tablet */
+    /* Index Tablet */
 
-/* Index Tablet */
+    /* About Tablet */
 
-/* About Tablet */
+    .content-vision, .content-mission
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+    }
+
+    .content-mission{
+        direction: rtl;
+    }
+
+    .team-cards
+    {
+        flex-direction: row;
+    }
+
+    .card img
+    {
+        width: 110px;
+    }
+}
+
 
 /* Desktop Sizes */
 
