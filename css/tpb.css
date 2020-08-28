@@ -217,19 +217,11 @@
         grid-template-rows: none;
     }
 
-    .content-mission{
+    .content-mission
+    {
         direction: rtl;
     }
 
-    .team-cards
-    {
-        flex-direction: row;
-    }
-
-    .card img
-    {
-        width: 110px;
-    }
 }
 
 
