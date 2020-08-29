@@ -41,7 +41,7 @@
     left: 50%;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 35px;
     line-height: 41px;
     color: #FFFFFF;
@@ -52,7 +52,7 @@
     position: absolute;
     width: 163px;
     height: 36px;
-    top: 600px;
+    top: 650px;
     left: 50%;
     font-family: Actor;
     font-style: normal;
