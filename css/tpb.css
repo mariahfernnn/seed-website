@@ -22,7 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: inherit;
+    min-height: inherit;
 }
 
 .logo
@@ -66,6 +66,7 @@
     width: 90%;
     margin: 0px auto;
     text-align: center;
+    min-height: 200px;
 }
 
 #aboutTOP h1
@@ -77,7 +78,7 @@
 #aboutTOP p
 {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin: auto;
 }
 
 #aboutGRID
@@ -190,7 +191,7 @@
 .card img
 {
     width: 50%;
-    max-width: 200px;
+    max-width: 240px;
     height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
@@ -217,19 +218,16 @@
         grid-template-rows: none;
     }
 
-    .content-mission{
+    .content-mission
+    {
         direction: rtl;
     }
 
-    .team-cards
+    #aboutTOP p
     {
-        flex-direction: row;
+        margin: auto;
     }
 
-    .card img
-    {
-        width: 110px;
-    }
 }
 
 
