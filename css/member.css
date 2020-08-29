@@ -186,6 +186,21 @@
 }
 
 @media screen and (max-width: 820px) {
+  #question {
+    left: 10%;
+    top: 20%;
+  }
+
+  #answer {
+    left: 10%;
+    top: 200px;
+  }
+
+  .sign-up {
+    left: 10%;
+    top: 480px;
+  }
+
   #benefits-list {
     flex-direction: column;
     margin-left: auto;
@@ -202,3 +217,4 @@
     margin-bottom: 100px;
   }
 }
+
