@@ -363,6 +363,8 @@
 
 @media(min-width: 900px)
 {
+    /* Contact Desktop */
+
     #contactTOP
     {
         margin-top: 20px;
@@ -381,10 +383,13 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* Index Desktop */
+
+    /* About Desktop */
+    .team-cards
+    {
+        flex-direction: row;
+    }
 }
 
-/* Contact Desktop */
-
-/* Index Desktop */
-
-/* About Desktop */
