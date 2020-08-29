@@ -162,6 +162,21 @@
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 5px;
+    color: #ffffff;
+}
+
+#btnLOG:hover, #btnUP:hover
+{
+    background-color: #2ac21d;
+}
+
+.home-content p
+{
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 /* About Page */
