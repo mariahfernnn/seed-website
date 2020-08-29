@@ -80,7 +80,22 @@
             </p>
         </div>
         <div>
-            <!-- Contact form -->
+            <section class="contactFORM">
+                <form action='https://cxmbuvl772.execute-api.ca-central-1.amazonaws.com/testing/contact-us' id="contact-form" method="post">
+                    <h2>GET IN TOUCH</h2>
+                    <label>Name:</label>
+                    <input type="text" name="nameInput" id="nameInput" placeholder="Enter name here…">
+                    <label>Phone:</label>
+                    <input type="phone" name="phoneInput" id="phoneInput" placeholder="Enter phone number">
+                    <label>Email:</label>
+                    <input type="email" name="emailInput" id="emailInput" placeholder="Enter email here…">
+                    <p id="formmsg">How can we help you?</p>
+                    <textarea name="descriptionInput" id="descriptionInput" rows="3" placeholder="We'll get back to you as soon as we can!"></textarea>
+                    <br/>
+                    <button type="submit">Submit</button>
+                    <h4 id="response"></h4>
+                </form>                
+            </section>
         </div>
     </section>
 
@@ -100,6 +115,8 @@
             <input id="email" placeholder="Enter your email"></input>
         </div>
     </footer>
+
+    <script src="/js/form.js" type="text/javascript"></script>
 </body>
 
 

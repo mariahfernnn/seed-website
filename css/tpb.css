@@ -61,6 +61,61 @@
     text-align: center;
 }
 
+.contactFORM
+{
+    display: block;
+    background-color: #DBE7DA;
+}
+
+#contact-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form h2
+{
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#contact-form label
+{
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#contact-form input
+{
+    margin-bottom: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#formmsg
+{
+    align-self: center;
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+#descriptionInput
+{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+#contact-form button 
+{
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: min-content;
+}
+
 /* Index Page */
 
 .home-content
