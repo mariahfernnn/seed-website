@@ -66,6 +66,11 @@
     border-radius: 3px;
 }
 
+.sign-up a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 /* member page - our benefits */
 
 #member-benefits {
