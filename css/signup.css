@@ -78,10 +78,7 @@
     font-size: 20px;
 }
 
-#already-member {
-    text-align: center;
-    margin: 3% auto;
-}
+
 
 @media (max-width:1200px) {
     #left h1 {
@@ -106,7 +103,7 @@
     }
     
     #login-form {
-        width: 350px;
+        width: 100%;
     }
     
     #login-form input{
@@ -114,11 +111,53 @@
         height: 30px;
         font-size: 20px;
     }
+    
+    #login-form p{
+        width: 300px;
+    }
+    
+    #login-button{
+        width: 300px;
+    }
+    
+    #already-member{
+        width: 300px;
+    }
 }
 
 @media (max-width: 700px) {
     #right h1 {
         font-size: 40px;
         width: 60%;
+    }
+}
+
+@media (max-width: 375px){
+    #right h1{
+        font-size: 35px;
+    }
+    
+    #login-form input{
+        width: 200px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    #login-form label{
+        font-size: 16px;
+    }
+    
+    #login-form p{
+        width: 200px;
+    }
+    
+    #login-button{
+        width: 200px;
+        font-size: 16px;
+    }
+    
+    #already-member{
+        text-align: center;
+        width:200px;
     }
 }
