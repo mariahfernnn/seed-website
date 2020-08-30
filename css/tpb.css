@@ -124,7 +124,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/heroimage.png);
+    background-image: url(../img/heroimage.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@
 
 .home-content p:last-of-type
 {
-    font-size-adjust: 20px;
+    font-size: 20px;
     text-align: center;
     width: 90%;
     margin-bottom: 20px;
@@ -162,6 +162,28 @@
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 5px;
+    color: #ffffff;
+}
+
+#btnLOG a, #btnUP a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#btnLOG:hover, #btnUP:hover
+{
+    background-color: #2ac21d;
+}
+
+.home-content p
+{
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 /* About Page */
@@ -170,7 +192,7 @@
 {
     display: block;
     width: 90%;
-    margin: 0px auto;
+    margin: 8% 5% auto;
     text-align: center;
     min-height: 200px;
 }
@@ -233,7 +255,7 @@
 {
     display: block;
     text-align: center;
-    margin: 20px auto;
+    margin: 5% auto;
     min-height: 200px;
 }
 
@@ -247,14 +269,14 @@
 #aboutPARTNER h3 
 {
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-top: 20px;
     justify-self: flex-start;
 }
 
 #aboutPARTNER p
 {
     font-size: 18px;
-    margin: auto;
+    margin:auto;
 }
 
 .content-vision img, .content-mission img
