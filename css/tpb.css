@@ -116,6 +116,11 @@
     width: min-content;
 }
 
+#response
+{
+    margin: 0px auto;
+}
+
 /* Index Page */
 
 .home-content
