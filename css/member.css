@@ -28,7 +28,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: auto;
 }
 
 /* changes */
@@ -60,7 +60,7 @@
     /* font-weight: 500; */
     
     /* Changes */
-    font-size: 18px;
+    font-size: 36px;
     margin: 15px auto;
 
     line-height: 41px;
